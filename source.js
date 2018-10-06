@@ -102,9 +102,11 @@ function pushNextAction(id){
 	
 	//////start Screen
 	if (plotId == 0){
-			initStartMenu();
-			//setDialogue(1);
-			//setTimeout(spawnDialogueBox, 100);
+
+		setTimeout(initStartMenu, 3000);
+		
+		//setDialogue(1);
+		//setTimeout(spawnDialogueBox, 100);
  	}
 	///////Start Room
 	else if (plotId == 100){
@@ -445,6 +447,9 @@ function pushNextAction(id){
  
  function initStartMenu() {
 	 getBackground(0);
+	 var instructions = document.getElementById("instructions");
+	 var loadingtext = document.getElementById("loadingtext");
+	 instructions.removeChild(loadingtext);
 	 getWrappers();
 	 
 	
