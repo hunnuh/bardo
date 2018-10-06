@@ -4,7 +4,7 @@
 
 ## About Bardo:
 
-Live Demo: http://www.huntermaverickwells.com/img/portfolio/coding/bardo/bardo.html
+Live Demo: http://www.bardothesavior.com
 (Not optimized for mobile)
 
   Bardo won 1st place in Games at the 2017 CSUN Multimedia Showcase.
